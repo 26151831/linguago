@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: linguago
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: LINGUA_DB
+        value: /data/lingua.db
+    disk:
+      name: linguago-data
+      mountPath: /data
+      sizeGB: 1

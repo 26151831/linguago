@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 本地数据库（含本地用户数据，不应进仓库）
+lingua.db
+*.db
+/data/
+
+# 工具生成的临时产物
+.trae-html-share-packages/
+
+# 系统/编辑器
+.DS_Store
+*.log
+.env
