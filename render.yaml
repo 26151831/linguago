@@ -6,8 +6,4 @@ services:
     healthCheckPath: /api/health
     envVars:
       - key: LINGUA_DB
-        value: /data/lingua.db
-    disk:
-      name: linguago-data
-      mountPath: /data
-      sizeGB: 1
+        value: /app/data/lingua.db

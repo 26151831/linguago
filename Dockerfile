@@ -2,7 +2,7 @@ FROM python:3.12-slim
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
-    LINGUA_DB=/data/lingua.db
+    LINGUA_DB=/app/data/lingua.db
 
 WORKDIR /app
 
